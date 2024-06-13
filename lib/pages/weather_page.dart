@@ -45,6 +45,27 @@ class WeatherPageState extends State<WeatherPage> {
     return 'Good Evening';
   }
 
+  Color? topColor() {
+    var hour = DateTime.now().hour;
+    if (hour < 12) {
+      return Colors.amberAccent[200];
+    }
+    if (hour < 17) {
+      return Colors.blueAccent;
+    }
+    return Color(0xFFFFAB40);
+  }
+
+  Color? bottomColor() {
+    var hour = DateTime.now().hour;
+    if (hour < 12) {
+      return Colors.deepOrangeAccent[200];
+    }
+    if (hour < 17) {
+      return Colors.blueGrey;
+    }
+    return Color(0xFF673AB7);
+  }
   /*Color getMainBackgroundColour(String? mainCondition) {
     if (mainCondition == null) return Color(0xFF673AB7);
     switch (mainCondition?.toLowerCase()) {
@@ -132,7 +153,7 @@ class WeatherPageState extends State<WeatherPage> {
                   height: 300,
                   width: 300,
                   decoration: BoxDecoration(
-                      shape: BoxShape.circle, color: Color(0xFF673AB7)),
+                      shape: BoxShape.circle, color: bottomColor()),
                 ),
               ),
               Align(
@@ -142,7 +163,7 @@ class WeatherPageState extends State<WeatherPage> {
                     width: 300,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
-                      color: Color(0xFF673AB7),
+                      color: bottomColor(),
                     )),
               ),
               Align(
@@ -150,7 +171,7 @@ class WeatherPageState extends State<WeatherPage> {
                 child: Container(
                   height: 300,
                   width: 600,
-                  decoration: BoxDecoration(color: Color(0xFFFFAB40)),
+                  decoration: BoxDecoration(color: topColor()),
                 ),
               ),
               BackdropFilter(
