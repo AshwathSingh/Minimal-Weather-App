@@ -14,12 +14,16 @@ In this project, I make use of the openweathermap API to get data about the weat
   - Actual Temperature
   - Feels Like (as often this is what people will be experiencing outside)
 
+Additionally to this, I have added the functionality for the background of the app to change based on the hour of the day, such as when it is before midday the app's background will display a yellow-orange colour, when it is between 12:00pm and 5:00pm it will display a blue-grey and blue background and when it is night it will showcase a yellow and purple background as seen in the picture below. 
+
+
 ## What more might be there?
 
-If I do come back to this project (currently as of writing this the motivation is quite high 😅) I would like to implement a feature that would allow for a navigation bar at the bottom with a home page (which would be your locations temperature) but another page called "Other" wherein you would be able to see other locations weather (which you would have saved as favourites)
+If I do come back to this project (currently as of writing this the motivation is quite high 😅) I would like to implement a feature that would allow for a navigation bar at the bottom with a home page (which would be the temperature of your location) but another page called "Other" wherein you would be able to see other locations weather (which you would have saved as favourites)
 
 ## What the App looks like
 
-![Untitled design-2](https://github.com/AshwathSingh/Minimal-Weather-App/assets/143448570/5674b21d-44aa-458c-af07-c5f168683219)
+![Untitled design-3](https://github.com/AshwathSingh/Minimal-Weather-App/assets/143448570/ac5fce15-858b-4a97-9d76-1f12ca7ae273)
+
 
 
