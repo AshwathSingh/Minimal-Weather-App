@@ -19,11 +19,12 @@ Additionally to this, I have added the functionality for the background of the a
 
 ## What more might be there?
 
-If I do come back to this project (currently as of writing this the motivation is quite high 😅) I would like to implement a feature that would allow for a navigation bar at the bottom with a home page (which would be the temperature of your location) but another page called "Other" wherein you would be able to see other locations weather (which you would have saved as favourites)
+If I do come back to this project (currently as of writing this the motivation is quite high 😅) I would like to implement a feature that would allow for a navigation bar at the bottom with a home page (which would be the temperature of your location) but another page called "Other" wherein you would be able to see other locations weather (which you would have saved as favourites, this feature has been added as of 14th June).
 
 ## What the App looks like
 
-![Untitled design-3](https://github.com/AshwathSingh/Minimal-Weather-App/assets/143448570/ac5fce15-858b-4a97-9d76-1f12ca7ae273)
+![Untitled design-4](https://github.com/AshwathSingh/Minimal-Weather-App/assets/143448570/57b2d36c-6601-46fd-a2a9-506ed21c9aae)
+
 
 
 
